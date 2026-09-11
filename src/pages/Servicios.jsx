@@ -123,12 +123,12 @@ export function Servicios() {
 </div>
 </div>
 </div>
-<div className="pt-space-md bg-surface-container-low rounded-lg p-space-md flex items-center justify-between">
+<div className="pt-space-md bg-surface-container-low rounded-lg p-space-md flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md sm:gap-0">
 <div>
 <span className="font-label-sm text-label-sm text-on-surface-variant uppercase">Entregables Clave</span>
 <p className="font-title text-title text-primary">Dossier de Planos + Render Pack</p>
 </div>
-<a className="inline-flex items-center gap-1.5 px-4 py-2 bg-secondary-container text-on-secondary rounded-lg font-title text-label-lg shadow-sm hover:bg-secondary transition-colors" data-path="cotizar" href="#">
+<a className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-secondary-container text-on-secondary rounded-lg font-title text-label-lg shadow-sm hover:bg-secondary transition-colors" data-path="cotizar" href="#">
 <span>Cotizar Proyecto</span>
 <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
 </a>
@@ -178,12 +178,12 @@ export function Servicios() {
 </div>
 </div>
 </div>
-<div className="pt-space-md bg-surface-container-low rounded-lg p-space-md flex items-center justify-between">
+<div className="pt-space-md bg-surface-container-low rounded-lg p-space-md flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md sm:gap-0">
 <div>
 <span className="font-label-sm text-label-sm text-on-surface-variant uppercase">Cobertura</span>
 <p className="font-title text-title text-primary">Placas, Aleros, Muros y Terrazas</p>
 </div>
-<a className="inline-flex items-center gap-1.5 px-4 py-2 bg-secondary-container text-on-secondary rounded-lg font-title text-label-lg shadow-sm hover:bg-secondary transition-colors" data-path="cotizar" href="#">
+<a className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-secondary-container text-on-secondary rounded-lg font-title text-label-lg shadow-sm hover:bg-secondary transition-colors" data-path="cotizar" href="#">
 <span>Solicitar Inspección</span>
 <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
 </a>
@@ -233,12 +233,12 @@ export function Servicios() {
 </div>
 </div>
 </div>
-<div className="pt-space-md bg-surface-container-low rounded-lg p-space-md flex items-center justify-between">
+<div className="pt-space-md bg-surface-container-low rounded-lg p-space-md flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md sm:gap-0">
 <div>
 <span className="font-label-sm text-label-sm text-on-surface-variant uppercase">Capacidad Técnica</span>
 <p className="font-title text-title text-primary">Tanques desde 2.000L a 300.000L</p>
 </div>
-<a className="inline-flex items-center gap-1.5 px-4 py-2 bg-secondary-container text-on-secondary rounded-lg font-title text-label-lg shadow-sm hover:bg-secondary transition-colors" data-path="cotizar" href="#">
+<a className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-secondary-container text-on-secondary rounded-lg font-title text-label-lg shadow-sm hover:bg-secondary transition-colors" data-path="cotizar" href="#">
 <span>Agendar Lavado</span>
 <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
 </a>
@@ -288,12 +288,12 @@ export function Servicios() {
 </div>
 </div>
 </div>
-<div className="pt-space-md bg-surface-container-low rounded-lg p-space-md flex items-center justify-between">
+<div className="pt-space-md bg-surface-container-low rounded-lg p-space-md flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md sm:gap-0">
 <div>
 <span className="font-label-sm text-label-sm text-on-surface-variant uppercase">Eficiencia</span>
 <p className="font-title text-title text-primary">-25% en Consumo Eléctrico</p>
 </div>
-<a className="inline-flex items-center gap-1.5 px-4 py-2 bg-secondary-container text-on-secondary rounded-lg font-title text-label-lg shadow-sm hover:bg-secondary transition-colors" data-path="cotizar" href="#">
+<a className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-secondary-container text-on-secondary rounded-lg font-title text-label-lg shadow-sm hover:bg-secondary transition-colors" data-path="cotizar" href="#">
 <span>Servicio Clima</span>
 <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
 </a>
@@ -343,12 +343,12 @@ export function Servicios() {
 </div>
 </div>
 </div>
-<div className="pt-space-md bg-surface-container-low rounded-lg p-space-md flex items-center justify-between">
+<div className="pt-space-md bg-surface-container-low rounded-lg p-space-md flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md sm:gap-0">
 <div>
 <span className="font-label-sm text-label-sm text-on-surface-variant uppercase">Respaldo Continuo</span>
 <p className="font-title text-title text-primary">Cero Apagones en tu Inmueble</p>
 </div>
-<a className="inline-flex items-center gap-1.5 px-4 py-2 bg-secondary-container text-on-secondary rounded-lg font-title text-label-lg shadow-sm hover:bg-secondary transition-colors" data-path="cotizar" href="#">
+<a className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-secondary-container text-on-secondary rounded-lg font-title text-label-lg shadow-sm hover:bg-secondary transition-colors" data-path="cotizar" href="#">
 <span>Diagnosticar Red</span>
 <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
 </a>
@@ -398,12 +398,12 @@ export function Servicios() {
 </div>
 </div>
 </div>
-<div className="pt-space-md bg-surface-container-low rounded-lg p-space-md flex items-center justify-between">
+<div className="pt-space-md bg-surface-container-low rounded-lg p-space-md flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md sm:gap-0">
 <div>
 <span className="font-label-sm text-label-sm text-on-surface-variant uppercase">Especialidad</span>
 <p className="font-title text-title text-primary">Interiores &amp; Fachadas Costeras</p>
 </div>
-<a className="inline-flex items-center gap-1.5 px-4 py-2 bg-secondary-container text-on-secondary rounded-lg font-title text-label-lg shadow-sm hover:bg-secondary transition-colors" data-path="cotizar" href="#">
+<a className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-secondary-container text-on-secondary rounded-lg font-title text-label-lg shadow-sm hover:bg-secondary transition-colors" data-path="cotizar" href="#">
 <span>Renovar Acabados</span>
 <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
 </a>
