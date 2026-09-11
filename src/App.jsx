@@ -9,7 +9,7 @@ import { Cotizador } from './pages/Cotizador';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/DS.SERVICIOS">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
