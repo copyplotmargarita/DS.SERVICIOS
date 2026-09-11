@@ -39,7 +39,7 @@ export function Contacto() {
 <div className="absolute left-1/3 bottom-0 w-80 h-80 rounded-full bg-tertiary-fixed/10 blur-2xl pointer-events-none"></div>
 <div className="relative max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-space-xl">
 <div className="w-full md:w-7/12 space-y-space-sm text-left">
-<h1 className="font-headline-lg text-headline-lg text-on-primary tracking-tight">
+<h1 className="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-primary tracking-tight leading-tight">
           Atención Técnica Inmediata y Canales Directos en Isla de Margarita
         </h1>
 <p className="font-body-lg text-body-lg text-on-primary-container leading-relaxed">
