@@ -34,7 +34,7 @@ export function Contacto() {
     <>
       <div className="flex flex-col w-full">
 {/*  INTRO ARCHITECTURAL HEADER  */}
-<section className="relative w-full bg-primary text-on-primary overflow-hidden px-gutter lg:px-margin -mt-20 pt-20 h-[500px] lg:h-[550px] flex flex-col justify-center">
+<section className="relative w-full bg-primary text-on-primary overflow-hidden px-gutter lg:px-margin -mt-20 pt-32 pb-16 lg:pt-20 lg:pb-0 h-auto lg:h-[550px] flex flex-col justify-center">
 <div className="absolute -right-24 -top-24 w-96 h-96 rounded-full bg-secondary-container/10 blur-3xl pointer-events-none"></div>
 <div className="absolute left-1/3 bottom-0 w-80 h-80 rounded-full bg-tertiary-fixed/10 blur-2xl pointer-events-none"></div>
 <div className="relative max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-space-xl">

@@ -3,7 +3,7 @@ export function Home() {
     <>
       <div className="flex flex-col w-full font-body-md text-on-surface">
 {/*  1. HERO SECTION  */}
-<section className="relative w-full overflow-hidden bg-primary-container -mt-20 pt-20 h-[500px] lg:h-[550px] flex flex-col justify-center">
+<section className="relative w-full overflow-hidden bg-primary-container -mt-20 pt-32 pb-16 lg:pt-20 lg:pb-0 h-auto lg:h-[550px] flex flex-col justify-center">
 {/*  Background Image with Gradient Scrim  */}
 <div className="absolute inset-0 bg-cover bg-center z-0 scale-105 transform duration-1000 ease-out" style={{backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuCjSLHzylq14BYxzO169gjC0p74WUJn7XIQCHb3RNngaP_O8CYcRDej9LerOU4PNY-BxKTHl8Ui0ZJAzAqWQiJiyiJ0cbBoZ6a9I8STDyyBhU-ssk0pbacvtmFQzCM5qfJgKzBz97J__8lWTqoqcrDZOEqypwyDyAomfM1FVANHmD2BW-aZH7hb-oebuP7BSvfy4ASYk_VgVuqFwyhk_oCqDQkuyYbj4afwS1pRpiv9hPaamKFRP0rR')"}}></div>
 <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-primary-container/70 z-10 backdrop-blur-[1px]"></div>

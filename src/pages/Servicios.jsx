@@ -3,7 +3,7 @@ export function Servicios() {
     <>
       <div className="flex flex-col w-full">
 {/*  Top Ambient Banner & Services Title Hero  */}
-<section className="relative w-full bg-primary text-on-primary overflow-hidden px-gutter lg:px-margin -mt-20 pt-20 h-[500px] lg:h-[550px] flex flex-col justify-center">
+<section className="relative w-full bg-primary text-on-primary overflow-hidden px-gutter lg:px-margin -mt-20 pt-32 pb-16 lg:pt-20 lg:pb-0 h-auto lg:h-[550px] flex flex-col justify-center">
 <div className="absolute -top-24 -right-24 w-96 h-96 bg-tertiary-fixed-dim/10 rounded-full blur-3xl pointer-events-none"></div>
 <div className="absolute bottom-0 left-1/4 w-80 h-80 bg-secondary-container/10 rounded-full blur-2xl pointer-events-none"></div>
 <div className="max-w-6xl mx-auto flex flex-col gap-space-lg relative z-10">

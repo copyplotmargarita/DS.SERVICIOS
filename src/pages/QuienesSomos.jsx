@@ -3,7 +3,7 @@ export function QuienesSomos() {
     <>
       <div className="flex flex-col w-full">
 {/*  Hero Institucional  */}
-<section className="relative w-full overflow-hidden bg-primary text-on-primary -mt-20 pt-20 h-[500px] lg:h-[550px] flex flex-col justify-center">
+<section className="relative w-full overflow-hidden bg-primary text-on-primary -mt-20 pt-32 pb-16 lg:pt-20 lg:pb-0 h-auto lg:h-[550px] flex flex-col justify-center">
 <div className="absolute inset-0 opacity-15 pointer-events-none">
 <svg className="w-full h-full" fill="none" viewBox="0 0 1440 800" xmlns="http://www.w3.org/2000/svg">
 <path className="text-tertiary-fixed-dim" d="M-100 200 C300 100, 600 400, 1540 100 L1540 900 L-100 900 Z" fill="currentColor" opacity="0.08"></path>
