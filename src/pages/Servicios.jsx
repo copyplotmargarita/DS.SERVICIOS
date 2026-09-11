@@ -41,12 +41,12 @@ export function Servicios() {
 </div>
 </div>
 {/*  Quick Search & Interactive Filtering Bar  */}
-<div className="mt-space-md bg-surface-container-lowest text-on-surface rounded-xl p-space-md shadow-xl flex flex-col md:flex-row items-stretch md:items-center justify-between gap-space-md">
-<div className="relative flex-1">
+<div className="mt-space-md bg-surface-container-lowest text-on-surface rounded-xl p-space-md shadow-xl flex flex-col md:flex-row items-stretch md:items-center justify-between gap-space-md w-full overflow-hidden">
+<div className="relative flex-1 min-w-0 w-full">
 <span className="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span>
-<input className="w-full pl-10 pr-4 py-2.5 rounded-lg bg-surface font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container-low" id="service-search-input" placeholder="Buscar por especialidad (ej. Techos, Bombas, Renders, Climas, Tableros)..." type="text"/>
+<input className="w-full pl-10 pr-4 py-2.5 rounded-lg bg-surface font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container-low" id="service-search-input" placeholder="Buscar por especialidad..." type="text"/>
 </div>
-<div className="flex items-center gap-space-xs overflow-x-auto pb-1 md:pb-0" id="filter-container">
+<div className="flex items-center gap-space-xs overflow-x-auto pb-1 md:pb-0 min-w-0 w-full md:w-auto" id="filter-container">
 <button className="filter-pill px-4 py-2 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg whitespace-nowrap transition-all shadow-sm" data-filter="all">
             Todos (6)
           </button>
