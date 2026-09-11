@@ -6,7 +6,7 @@ export function Servicios() {
 <section className="relative w-full bg-primary text-on-primary overflow-hidden px-gutter lg:px-margin -mt-20 pt-32 pb-16 lg:pt-20 lg:pb-0 h-auto lg:h-[550px] flex flex-col justify-center">
 <div className="absolute -top-24 -right-24 w-96 h-96 bg-tertiary-fixed-dim/10 rounded-full blur-3xl pointer-events-none"></div>
 <div className="absolute bottom-0 left-1/4 w-80 h-80 bg-secondary-container/10 rounded-full blur-2xl pointer-events-none"></div>
-<div className="max-w-6xl mx-auto flex flex-col gap-space-lg relative z-10">
+<div className="max-w-6xl w-full mx-auto flex flex-col gap-space-lg relative z-10 overflow-hidden">
 
 <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-stretch">
 <div className="lg:col-span-8 space-y-space-md flex flex-col justify-center">
@@ -34,7 +34,7 @@ export function Servicios() {
 <p className="font-body-sm text-body-sm text-on-primary-container">Ingenieros e inspectores colegiados en cada obra</p>
 </div>
 </div>
-<div className="pt-space-xs flex items-center justify-between text-on-primary-container font-body-sm text-body-sm">
+<div className="pt-space-xs flex flex-wrap items-center justify-between gap-2 text-on-primary-container font-body-sm text-body-sm">
 <span>Margarita • Coche • Cubagua</span>
 <span className="text-tertiary-fixed-dim font-title">Garantía Certificada</span>
 </div>
@@ -46,7 +46,7 @@ export function Servicios() {
 <span className="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span>
 <input className="w-full pl-10 pr-4 py-2.5 rounded-lg bg-surface font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container-low" id="service-search-input" placeholder="Buscar por especialidad..." type="text"/>
 </div>
-<div className="flex items-center gap-space-xs overflow-x-auto pb-1 md:pb-0 min-w-0 w-full md:w-auto" id="filter-container">
+<div className="flex items-center gap-space-xs overflow-x-auto pb-1 md:pb-0 min-w-0 max-w-full w-full md:w-auto" id="filter-container">
 <button className="filter-pill px-4 py-2 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg whitespace-nowrap transition-all shadow-sm" data-filter="all">
             Todos (6)
           </button>
