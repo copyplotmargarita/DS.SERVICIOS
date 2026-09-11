@@ -10,7 +10,7 @@ export function Servicios() {
 
 <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-stretch">
 <div className="lg:col-span-8 space-y-space-md flex flex-col justify-center">
-<h1 className="font-display text-display-mobile md:text-display text-on-primary tracking-tight leading-tight">
+<h1 className="font-display text-display-mobile md:text-display text-on-primary tracking-tight leading-tight break-words">
             Servicios Integrales de <span className="text-tertiary-fixed-dim">Ingeniería</span>, Construcción y Facility Management
           </h1>
 <p className="font-body-lg text-body-lg text-on-primary-container max-w-3xl leading-relaxed">
